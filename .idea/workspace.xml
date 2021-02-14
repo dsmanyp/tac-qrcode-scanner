@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b351451-ea9c-4ac7-afb7-031ad707edaf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1nwRSEAnstliItGNTOM60TkLC9S" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.qrcode-scanner">
+    <configuration name="qrcode-scanner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="qr_scanner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qrcode-scanner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scanner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="qr_scanner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scanner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sound" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="qr_scanner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sound.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webcame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="qr_scanner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webcame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.qrcode-scanner" />
+        <item itemvalue="Python.webcame" />
+        <item itemvalue="Python.sound" />
+        <item itemvalue="Python.scanner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b351451-ea9c-4ac7-afb7-031ad707edaf" name="Default Changelist" comment="" />
+      <created>1612299164566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612299164566</updated>
+      <workItem from="1612299167169" duration="1692000" />
+      <workItem from="1612301206082" duration="675000" />
+      <workItem from="1612337855290" duration="22000" />
+      <workItem from="1612471851233" duration="1101000" />
+      <workItem from="1612474706536" duration="620000" />
+      <workItem from="1612508672793" duration="156000" />
+      <workItem from="1612599524011" duration="35000" />
+      <workItem from="1612600398881" duration="235000" />
+      <workItem from="1612602364997" duration="1279000" />
+      <workItem from="1612610450734" duration="598000" />
+      <workItem from="1612626687655" duration="1261000" />
+      <workItem from="1612628543957" duration="1468000" />
+      <workItem from="1612630354867" duration="1649000" />
+      <workItem from="1612632182666" duration="1786000" />
+      <workItem from="1612639126470" duration="599000" />
+      <workItem from="1612641699317" duration="902000" />
+      <workItem from="1612643511843" duration="1590000" />
+      <workItem from="1612645324981" duration="919000" />
+      <workItem from="1612687005002" duration="41000" />
+      <workItem from="1612687063768" duration="1083000" />
+      <workItem from="1612688877740" duration="590000" />
+      <workItem from="1612690728241" duration="599000" />
+      <workItem from="1612692610228" duration="585000" />
+      <workItem from="1612694735311" duration="587000" />
+      <workItem from="1612696563616" duration="583000" />
+      <workItem from="1612698379908" duration="586000" />
+      <workItem from="1612702331451" duration="7000" />
+      <workItem from="1612717390600" duration="2480000" />
+      <workItem from="1612720345059" duration="1789000" />
+      <workItem from="1612723340414" duration="479000" />
+      <workItem from="1612767935906" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1780" height="137" key="GridCell.Tab.0.bottom" timestamp="1612718676277">
+      <screen x="1440" y="-81" width="1920" height="1057" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.782/1440.-81.1920.1057@0.23.1440.782" timestamp="1612646925220" />
+    <state width="1780" height="137" key="GridCell.Tab.0.bottom/0.23.1440.782/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1612718676277" />
+    <state width="1780" height="382" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-81.1920.962@1440.-81.1920.962" timestamp="1612717960058" />
+    <state width="1780" height="137" key="GridCell.Tab.0.center" timestamp="1612718676276">
+      <screen x="1440" y="-81" width="1920" height="1057" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.782/1440.-81.1920.1057@0.23.1440.782" timestamp="1612646925219" />
+    <state width="1780" height="137" key="GridCell.Tab.0.center/0.23.1440.782/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1612718676276" />
+    <state width="1780" height="382" key="GridCell.Tab.0.center/0.23.1440.877/1440.-81.1920.962@1440.-81.1920.962" timestamp="1612717960057" />
+    <state width="1780" height="137" key="GridCell.Tab.0.left" timestamp="1612718676275">
+      <screen x="1440" y="-81" width="1920" height="1057" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.782/1440.-81.1920.1057@0.23.1440.782" timestamp="1612646925219" />
+    <state width="1780" height="137" key="GridCell.Tab.0.left/0.23.1440.782/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1612718676275" />
+    <state width="1780" height="382" key="GridCell.Tab.0.left/0.23.1440.877/1440.-81.1920.962@1440.-81.1920.962" timestamp="1612717960057" />
+    <state width="1780" height="137" key="GridCell.Tab.0.right" timestamp="1612718676276">
+      <screen x="1440" y="-81" width="1920" height="1057" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.782/1440.-81.1920.1057@0.23.1440.782" timestamp="1612646925220" />
+    <state width="1780" height="137" key="GridCell.Tab.0.right/0.23.1440.782/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1612718676276" />
+    <state width="1780" height="382" key="GridCell.Tab.0.right/0.23.1440.877/1440.-81.1920.962@1440.-81.1920.962" timestamp="1612717960058" />
+    <state width="1780" height="349" key="GridCell.Tab.1.bottom" timestamp="1612717762613">
+      <screen x="1440" y="-81" width="1920" height="962" />
+    </state>
+    <state width="1389" height="279" key="GridCell.Tab.1.bottom/0.23.1440.782/1440.-81.1920.1057@0.23.1440.782" timestamp="1612633727791" />
+    <state width="1764" height="410" key="GridCell.Tab.1.bottom/0.23.1440.782/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1612632294142" />
+    <state width="1780" height="349" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.-81.1920.962@1440.-81.1920.962" timestamp="1612717762613" />
+    <state width="1780" height="349" key="GridCell.Tab.1.center" timestamp="1612717762613">
+      <screen x="1440" y="-81" width="1920" height="962" />
+    </state>
+    <state width="1389" height="279" key="GridCell.Tab.1.center/0.23.1440.782/1440.-81.1920.1057@0.23.1440.782" timestamp="1612633727791" />
+    <state width="1764" height="410" key="GridCell.Tab.1.center/0.23.1440.782/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1612632294142" />
+    <state width="1780" height="349" key="GridCell.Tab.1.center/0.23.1440.877/1440.-81.1920.962@1440.-81.1920.962" timestamp="1612717762613" />
+    <state width="1780" height="349" key="GridCell.Tab.1.left" timestamp="1612717762612">
+      <screen x="1440" y="-81" width="1920" height="962" />
+    </state>
+    <state width="1389" height="279" key="GridCell.Tab.1.left/0.23.1440.782/1440.-81.1920.1057@0.23.1440.782" timestamp="1612633727791" />
+    <state width="1764" height="410" key="GridCell.Tab.1.left/0.23.1440.782/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1612632294141" />
+    <state width="1780" height="349" key="GridCell.Tab.1.left/0.23.1440.877/1440.-81.1920.962@1440.-81.1920.962" timestamp="1612717762612" />
+    <state width="1780" height="349" key="GridCell.Tab.1.right" timestamp="1612717762613">
+      <screen x="1440" y="-81" width="1920" height="962" />
+    </state>
+    <state width="1389" height="279" key="GridCell.Tab.1.right/0.23.1440.782/1440.-81.1920.1057@0.23.1440.782" timestamp="1612633727791" />
+    <state width="1764" height="410" key="GridCell.Tab.1.right/0.23.1440.782/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1612632294142" />
+    <state width="1780" height="349" key="GridCell.Tab.1.right/0.23.1440.877/1440.-81.1920.962@1440.-81.1920.962" timestamp="1612717762613" />
+    <state x="1739" y="-4" key="SettingsEditor" timestamp="1612602840473">
+      <screen x="1440" y="-81" width="1920" height="962" />
+    </state>
+    <state x="1739" y="4" key="SettingsEditor/0.23.1440.782/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1612601593346" />
+    <state x="1739" y="-4" key="SettingsEditor/0.23.1440.877/1440.-81.1920.962@1440.-81.1920.962" timestamp="1612602840473" />
+    <state width="903" height="527" key="XDebugger.FullValuePopup" timestamp="1612631336177">
+      <screen x="1440" y="-81" width="1920" height="1057" />
+    </state>
+    <state width="903" height="527" key="XDebugger.FullValuePopup/0.23.1440.782/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1612631336177" />
+    <state x="384" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1613291230360">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="358" y="243" key="com.intellij.ide.util.TipDialog/0.23.1440.782/1440.-81.1920.1057@0.23.1440.782" timestamp="1612690744361" />
+    <state x="1917" y="217" key="com.intellij.ide.util.TipDialog/0.23.1440.782/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1612767963213" />
+    <state x="384" y="250" key="com.intellij.ide.util.TipDialog/0.23.1440.795@0.23.1440.795" timestamp="1613291230360" />
+    <state x="1917" y="190" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.-81.1920.962@1440.-81.1920.962" timestamp="1612698380193" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/qr_scanner$qrcode_scanner.coverage" NAME="qrcode-scanner Coverage Results" MODIFIED="1612720820769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/qr_scanner$sound.coverage" NAME="sound Coverage Results" MODIFIED="1612630063673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/qr_scanner$webcame.coverage" NAME="webcame Coverage Results" MODIFIED="1612645649832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/qr_scanner$scanner.coverage" NAME="scanner Coverage Results" MODIFIED="1612299820004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
