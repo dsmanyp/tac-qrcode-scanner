@@ -11,10 +11,11 @@ from imutils.video import VideoStream
 from pyzbar import pyzbar
 
 import config
+import os
 
-logging_filename = 'logs/{}.log'.format(datetime.utcnow().strftime("%Y-%m-%d"))
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-logging.basicConfig(filename='logs/{}.log'.format(date.today().strftime("%Y_%m_%d")), level=logging.DEBUG,
+logging.basicConfig(filename='{}/logs/{}.log'.format(ROOT_DIR, date.today().strftime("%Y_%m_%d")), level=logging.DEBUG,
                     format='[%(asctime)s][%(levelname)s][%(filename)s][%(funcName)s][%(lineno)d]:%(message)s')
 
 logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
