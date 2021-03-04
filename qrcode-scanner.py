@@ -35,35 +35,40 @@ time.sleep(2.0)
 logging.info('{}: STARTED SCANNING...'.format(datetime.now().isoformat()))
 
 while True:
-    frame = vs.read()
-    frame = imutils.resize(frame, width=400)
-    barcodes = pyzbar.decode(frame)
+    try:
+        frame = vs.read()
+        frame = imutils.resize(frame, width=400)
+        barcodes = pyzbar.decode(frame)
 
-    for barcode in barcodes:
-        data = {
-            'scanner_uuid': config.SCANNER_UUID,
-            'data': barcode.data.decode("utf-8"),
-            'type': config.SCAN_TYPE,
-            'scan_time': '{}Z'.format(datetime.utcnow().isoformat())
-        }
+        for barcode in barcodes:
+            data = {
+                'scanner_uuid': config.SCANNER_UUID,
+                'data': barcode.data.decode("utf-8"),
+                'type': config.SCAN_TYPE,
+                'scan_time': '{}Z'.format(datetime.utcnow().isoformat())
+            }
 
-        response = requests.post('{}{}'.format(config.DOMAIN, config.URL), data)
+            response = requests.post('{}{}'.format(config.DOMAIN, config.URL), data)
 
-        if response.status_code == 201 or response.status_code == 200:
-            beep(sound='coin')
-            logging.info(
-                '{}: SCAN SUCCESSFUL (UUID: {})'.format(datetime.now().isoformat(), barcode.data.decode("utf-8")))
-        elif 400 <= response.status_code <= 499:
-            beep(sound='error')
-            logging.error(
-                '{}: BAD REQUEST {}'.format(datetime.now().isoformat(), response.content))
-        elif response.status_code <= 500:
-            beep(sound='error')
-            logging.error(
-                '{}: SERVER ERROR {})'.format(datetime.now().isoformat(), response.content))
-        else:
-            beep(sound='error')
-            logging.error(
-                '{}: SOMETHING WENT WRONG {}'.format(datetime.now().isoformat(), response.content))
+            if response.status_code == 201 or response.status_code == 200:
+                beep(sound='coin')
+                logging.info(
+                    '{}: SCAN SUCCESSFUL (UUID: {})'.format(datetime.now().isoformat(), barcode.data.decode("utf-8")))
+            elif 400 <= response.status_code <= 499:
+                beep(sound='error')
+                logging.error(
+                    '{}: BAD REQUEST {}'.format(datetime.now().isoformat(), response.content))
+            elif response.status_code <= 500:
+                beep(sound='error')
+                logging.error(
+                    '{}: SERVER ERROR {})'.format(datetime.now().isoformat(), response.content))
+            else:
+                beep(sound='error')
+                logging.error(
+                    '{}: SOMETHING WENT WRONG {}'.format(datetime.now().isoformat(), response.content))
+    except Exception as e:
+        logger.error(e)
+        logging.info('{}: READY TO SCAN...'.format(datetime.now().isoformat()))
+
 
     time.sleep(3)
